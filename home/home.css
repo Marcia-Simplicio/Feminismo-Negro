@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:darkgrey;
+  background-image: url(/imagens/verbetes-feminismo-negro-movimento-mulheres-negras.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+a{
+  transition: 2s;
+}
+
+/*sidebar*/
+#sidebar{
+  position: fixed;
+  height: 100%;
+  width: 200px;
+  background-color: chocolate;
+  padding-top: 20px;
+}
+
+#sidebar h1{
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#sidebar a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 100%;
+  border: #000;
+  font: bold 12px/24px arial, helvetica, sans-aerif;	
+  padding:24px;
+  text-decoration: none;
+  color:burlywood;
+  background:chocolate;
+  width:180px;  
+  height:20px;	
+  display:block;	
+}
+
+#sidebar a:hover{
+  color: #800040;
+}
+
+#sidebar-container{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px; 
+}
+
